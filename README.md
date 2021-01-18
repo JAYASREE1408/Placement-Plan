@@ -16,10 +16,10 @@
 # Schedule panniko pa
 
 ### Interview hierarchy
-      First  : Aptitude 
-      Second : Coding
-      Third  : Technical subjects
-      Fourth : General HR
+                First  : Aptitude 
+                Second : Coding
+                Third  : Technical subjects
+                Fourth : General HR
 
 # Ellamae kaepanga
 
@@ -49,13 +49,13 @@
 - https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
 
 # SQL questions... 
--https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
+- https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
 
 # normalization concept in a simple manner... 
 - https://youtu.be/upS2HlUj1gI
 
-###Techdose ( programming questions )
-###IDeserve ( same as above) 
+### Techdose ( programming questions )
+### IDeserve ( same as above) 
 
 # General aptitude YouTube channels 
 
