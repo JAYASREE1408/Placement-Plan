@@ -1,25 +1,25 @@
 # Placement-Plan
-          General aptitude : RS Agarwal book and Indiabix
+          *General aptitude* : RS Agarwal book and Indiabix
 
-          Tech aptitude : Geeks for geeks and Myswots
+          *Tech aptitude* : Geeks for geeks and Myswots
 
 # Subjects :
-          Data structure : Geeks for geeks/ Narasimha Karumachi book
+          *Data structure* : Geeks for geeks/ Narasimha Karumachi book
 
-          Database : Studytonight for concepts (Any other websites) Hackerrank for practice
+          *Database* : Studytonight for concepts (Any other websites) Hackerrank for practice
 
-          OS : Silberscazh book or Any other website 
+          *OS* : Silberscazh book or Any other website 
 
-          OOPS : Bala guruswamy book and Geeks for geeks
+          *OOPS* : Bala guruswamy book and Geeks for geeks
 
 
 # Schedule panniko pa
 
 ### Interview hierarchy
-     - First  : Aptitude 
-     - Second : Coding
-     - Third  : Technical subjects
-     - Fourth : General HR
+      First  : Aptitude 
+      Second : Coding
+      Third  : Technical subjects
+      Fourth : General HR
 
 # Ellamae kaepanga
 
@@ -33,32 +33,39 @@
 
 
 # For OS, DBMS, DS and CN concepts ...
+
 - https://afteracademy.com/tech-interview
 - https://www.gatevidyalay.com/
 
 # YouTube channels...
+
 - https://youtube.com/user/sunnylearning (for CN) 
 - neso academy 
 - codingsimplified for java programming (but u can use the concepts for any language) 
 - https://youtube.com/playlist?list=PLk6CEY9XxSIBs60KjvhQMtjl1UjVcJC2E (for C/CPP aptitude )
 
 # DBMS transactions concepts... 
--https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
-#sql questions... 
+
+- https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
+
+# SQL questions... 
 -https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
-#normalization concept in a simple manner... 
--https://youtu.be/upS2HlUj1gI
+
+# normalization concept in a simple manner... 
+- https://youtu.be/upS2HlUj1gI
+
 ###Techdose ( programming questions )
 ###IDeserve ( same as above) 
 
-#General aptitude YouTube channels 
+# General aptitude YouTube channels 
 
--freshersworld
--careerride
--packetprep
--cppnuts, simple snippets for cpp learners 
--javabrains, telusko for java and python learners
-#Networks
+- freshersworld
+- careerride
+- packetprep
+- cppnuts, simple snippets for cpp learners 
+- javabrains, telusko for java and python learners
+
+# Networks
  1. Network topology
  2. OSI and TCP/IP model
  3. Network components:
@@ -78,10 +85,11 @@
  11. UDP and TCP
  12. DNS, WWW , SMTP, MIME, HTTP, FTP, TELNET.
 
-#Database:
+# Database:
+
   1. Types of DBMS
   2. Keys
-  3. SQL commands                   (DDL,DCL,TCL,DML)  
+  3. SQL commands(DDL,DCL,TCL,DML)  
   4. Normalisation
   5. ACID
   6. Transaction
@@ -92,7 +100,8 @@
  11. 300 queries (min)
  12. NoSQL
 
-#Programming
+# Programming
+
    1. Programs that uses array logics.
    2. Subsequences
    3. Pattern matching
@@ -103,8 +112,9 @@
    8. Backtracking
    9. Anagrams and palindrome
 
-###Complexity must be practiced for each algorithm in sorting. Both time and space
-#Operating system
+### Complexity must be practiced for each algorithm in sorting. Both time and space
+# Operating system
+
  1. Types of OS
  2. Cache and DMA
  3. Process and it's State
@@ -117,7 +127,8 @@
  10. Disk scheduling 
  11. File organization
 
-#Data structures
+# Data structures
+
   1. Stack
   2. Queue
   3. Linkedlist
@@ -126,7 +137,7 @@
   6. Graph
   7. Hashing
     
-###In trees insertion , deletion and traversel must be practiced. In graph concepts are very important. To ensure that practice with maximum possible examples. We must know all the concepts about types of trees and code is optional.
+### In trees insertion , deletion and traversel must be practiced. In graph concepts are very important. To ensure that practice with maximum possible examples. We must know all the concepts about types of trees and code is optional.
 1. https://freecoursesite.com/
 2. https://desirecourse.net/
 3. https://courseclub.me/
