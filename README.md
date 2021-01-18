@@ -1,16 +1,16 @@
 # Placement-Plan
- **General aptitude** : RS Agarwal book and Indiabix
+          General aptitude : RS Agarwal book and Indiabix
 
- *Tech aptitude* : Geeks for geeks and Myswots
+          Tech aptitude : Geeks for geeks and Myswots
 
 # Subjects :
-          *Data structure* : Geeks for geeks/ Narasimha Karumachi book
+         Data structure : Geeks for geeks/ Narasimha Karumachi book
 
-          *Database* : Studytonight for concepts (Any other websites) Hackerrank for practice
+         Database : Studytonight for concepts (Any other websites) Hackerrank for practice
 
-          *OS* : Silberscazh book or Any other website 
+         OS : Silberscazh book or Any other website 
 
-          *OOPS* : Bala guruswamy book and Geeks for geeks
+         OOPS : Bala guruswamy book and Geeks for geeks
 
 
 # Schedule panniko pa
