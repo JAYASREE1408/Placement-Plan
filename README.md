@@ -1,5 +1,4 @@
 # Placement-Plan
-
 General aptitude : RS Agarwal book and Indiabix
 
 Tech aptitude : Geeks for geeks and Myswots
@@ -24,49 +23,50 @@ Fourth : General HR
 
 Ellamae kaepanga
 
-C(Debugging, Trace the output)
-OOPS( Debugging, trace the output)
-Java (Basic MCQs)
-Datastructure (MCQ Oriented )
-DB ( Simple queries )
-OS ( Concepts definition)
-Networks( Concepts )
+-C(Debugging, Trace the output)
+-OOPS( Debugging, trace the output)
+-Java (Basic MCQs)
+-Datastructure (MCQ Oriented )
+-DB ( Simple queries )
+-OS ( Concepts definition)
+-Networks( Concepts )
 
 
-for OS, DBMS, DS and CN concepts ...
->https://afteracademy.com/tech-interview
->https://www.gatevidyalay.com/
+#for OS, DBMS, DS and CN concepts ...
+-https://afteracademy.com/tech-interview
+-https://www.gatevidyalay.com/
 
-YouTube channels...
->https://youtube.com/user/sunnylearning (for CN) 
->neso academy 
->codingsimplified for java programming (but u can use the concepts for any language) 
->https://youtube.com/playlist?list=PLk6CEY9XxSIBs60KjvhQMtjl1UjVcJC2E (for C/CPP aptitude )
-> DBMS transactions concepts... 
-https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
->sql questions... 
-https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
->normalization concept in a simple manner... 
-https://youtu.be/upS2HlUj1gI
-> Techdose ( programming questions )
-> IDeserve ( same as above) 
+#YouTube channels...
+-https://youtube.com/user/sunnylearning (for CN) 
+-neso academy 
+-codingsimplified for java programming (but u can use the concepts for any language) 
+-https://youtube.com/playlist?list=PLk6CEY9XxSIBs60KjvhQMtjl1UjVcJC2E (for C/CPP aptitude )
+#DBMS transactions concepts... 
+-https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
+#sql questions... 
+-https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
+#normalization concept in a simple manner... 
+-https://youtu.be/upS2HlUj1gI
+###Techdose ( programming questions )
+###IDeserve ( same as above) 
 
-General aptitude YouTube channels 
-> freshersworld
-> careerride
-> packetprep
-cppnuts, simple snippets for cpp learners 
-javabrains, telusko for java and python learners
-Networks
+#General aptitude YouTube channels 
+
+-freshersworld
+-careerride
+-packetprep
+-cppnuts, simple snippets for cpp learners 
+-javabrains, telusko for java and python learners
+#Networks
  1. Network topology
  2. OSI and TCP/IP model
  3. Network components:
-       # Hub
-       # Repeaters
-       # Bridge
-       # Router
-       # Gateway
-       # Switch
+       - Hub
+       - Repeaters
+       - Bridge
+       - Router
+       - Gateway
+       - Switch
  4. Hamming code
  5. Sliding window protocol
  6. Ethernet
@@ -76,7 +76,8 @@ Networks
  10. Routing algorithms
  11. UDP and TCP
  12. DNS, WWW , SMTP, MIME, HTTP, FTP, TELNET.
-Database:
+
+#Database:
   1. Types of DBMS
   2. Keys
   3. SQL commands                   (DDL,DCL,TCL,DML)  
@@ -89,7 +90,8 @@ Database:
  10. Joins(upto 4 table)
  11. 300 queries (min)
  12. NoSQL
-Programing
+
+#Programming
    1. Programs that uses array logics.
    2. Subsequences
    3. Pattern matching
@@ -99,8 +101,9 @@ Programing
    7. Permutations
    8. Backtracking
    9. Anagrams and palindrome
-Complexity must be practiced for each algorithm in sorting. Both time and space
-Operating system
+
+###Complexity must be practiced for each algorithm in sorting. Both time and space
+#Operating system
  1. Types of OS
  2. Cache and DMA
  3. Process and it's State
@@ -112,7 +115,8 @@ Operating system
  9. Paging and Segmentation
  10. Disk scheduling 
  11. File organization
-Data structures
+
+#Data structures
   1. Stack
   2. Queue
   3. Linkedlist
@@ -120,7 +124,8 @@ Data structures
   5. Tries
   6. Graph
   7. Hashing
-    In trees insertion , deletion and traversel must be practiced. In graph concepts are very important. To ensure that practice with maximum possible examples. We must know all the concepts about types of trees and code is optional.
+    
+###In trees insertion , deletion and traversel must be practiced. In graph concepts are very important. To ensure that practice with maximum possible examples. We must know all the concepts about types of trees and code is optional.
 1. https://freecoursesite.com/
 2. https://desirecourse.net/
 3. https://courseclub.me/
