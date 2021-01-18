@@ -1,5 +1,5 @@
 # Placement-Plan
-          *General aptitude* : RS Agarwal book and Indiabix
+          **General aptitude** : RS Agarwal book and Indiabix
 
           *Tech aptitude* : Geeks for geeks and Myswots
 
