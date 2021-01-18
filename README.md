@@ -16,32 +16,33 @@
 # Schedule panniko pa
 
 ### Interview hierarchy
-     - First : Aptitude 
+     - First  : Aptitude 
      - Second : Coding
-     - Third : Technical subjects
+     - Third  : Technical subjects
      - Fourth : General HR
 
-Ellamae kaepanga
+# Ellamae kaepanga
 
--C(Debugging, Trace the output)
--OOPS( Debugging, trace the output)
--Java (Basic MCQs)
--Datastructure (MCQ Oriented )
--DB ( Simple queries )
--OS ( Concepts definition)
--Networks( Concepts )
+- C(Debugging, Trace the output)
+- OOPS( Debugging, trace the output)
+- Java (Basic MCQs)
+- Datastructure (MCQ Oriented )
+- DB ( Simple queries )
+- OS ( Concepts definition)
+- Networks( Concepts )
 
 
-#for OS, DBMS, DS and CN concepts ...
--https://afteracademy.com/tech-interview
--https://www.gatevidyalay.com/
+# For OS, DBMS, DS and CN concepts ...
+- https://afteracademy.com/tech-interview
+- https://www.gatevidyalay.com/
 
-#YouTube channels...
--https://youtube.com/user/sunnylearning (for CN) 
--neso academy 
--codingsimplified for java programming (but u can use the concepts for any language) 
--https://youtube.com/playlist?list=PLk6CEY9XxSIBs60KjvhQMtjl1UjVcJC2E (for C/CPP aptitude )
-#DBMS transactions concepts... 
+# YouTube channels...
+- https://youtube.com/user/sunnylearning (for CN) 
+- neso academy 
+- codingsimplified for java programming (but u can use the concepts for any language) 
+- https://youtube.com/playlist?list=PLk6CEY9XxSIBs60KjvhQMtjl1UjVcJC2E (for C/CPP aptitude )
+
+# DBMS transactions concepts... 
 -https://youtube.com/playlist?list=PLLVZaArN53xDVmYqolF4aflNtpUeVUCBM
 #sql questions... 
 -https://youtube.com/playlist?list=PLqM7alHXFySGweLxxAdBDK1CcDEgF-Kwx
