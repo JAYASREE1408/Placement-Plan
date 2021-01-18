@@ -1,7 +1,7 @@
 # Placement-Plan
-     General aptitude : RS Agarwal book and Indiabix
+          General aptitude : RS Agarwal book and Indiabix
 
-     Tech aptitude : Geeks for geeks and Myswots
+          Tech aptitude : Geeks for geeks and Myswots
 
 # Subjects :
           Data structure : Geeks for geeks/ Narasimha Karumachi book
@@ -13,13 +13,13 @@
           OOPS : Bala guruswamy book and Geeks for geeks
 
 
-Schedule panniko pa
+# Schedule panniko pa
 
-Interview hierarchy
-First : Aptitude 
-Second : Coding
-Third : Technical subjects
-Fourth : General HR
+### Interview hierarchy
+     - First : Aptitude 
+     - Second : Coding
+     - Third : Technical subjects
+     - Fourth : General HR
 
 Ellamae kaepanga
 
