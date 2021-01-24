@@ -355,45 +355,48 @@ ARP stands for Address Resolution Protocol. ARP is used to find LAN address from
 The node sends a broadcast message to all nodes saying what is the MAC address of this IP address.
 Node with the provided IP address replies with the MAC address.
 Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here.
-[1/24, 14:09] Jeyan Anna: Introduce yourself
-Real time application of Stack 
-Calculate 9 mins using a 4min and 7min sand clock
-Difference between http and https and what type of encryption is used in https
-Which language you prefer to code why
-What is operator overloading
-Different types of joins in DB
-Differentiate call by value and reference
-Unique key
+
+[1/24, 14:09] Jeyan Anna:
+1) Introduce yourself
+2) Real time application of Stack 
+3) Calculate 9 mins using a 4min and 7min sand clock
+4) Difference between http and https and what type of encryption is used in https
+5) Which language you prefer to code why
+6) What is operator overloading
+7) Different types of joins in DB
+8) Differentiate call by value and reference
+
+9)Unique key
 
 vs Primary key
-What is your laptop configuration
-Which sorting algorithm is best why
-Query to fetch second largest salary from DB
-Different networking layers
-Difference between tree and graph
-Stack using queue, Queue using stack
-How did you use your quarantine productively
-Difference between delete truncate and drop
-How to access private data members of a class outside it
-How you overcome from failures
-Where do you look yourself after 5 years
-ACID property
-Formal parameters vs actual parameters
-deadlock vs spin lock
-kernel
-Process vs program
-if you search google.com how the homepage is fetched
-hard work vs smart work
-3 reasons why should we hire you
-SDLC life cycle
-Explain dynamic binding 
-static storage class
-swap 2 variables i) with temp ii) without temp iii) without arithmetic operator
-Strength and weakness
-Which data structure can be used to find duplicate elements in array efficiently
-If your team member is not completing his work properly what would you do
-Your plans for end semester project
-Which OS you ara comfortable with and why you chose it
-[1/24, 14:09] Jeyan Anna: .....
-[1/24, 14:09] Jeyan Anna: ............
-[1/24, 14:09] Jeyan Anna: .....
+10)What is your laptop configuration
+11)Which sorting algorithm is best why
+12)Query to fetch second largest salary from DB
+13)Different networking layers
+14)Difference between tree and graph
+15)Stack using queue, Queue using stack
+16)How did you use your quarantine productively
+17)Difference between delete truncate and drop
+18)How to access private data members of a class outside it
+19)How you overcome from failures
+20)Where do you look yourself after 5 years
+21)ACID property
+22)Formal parameters vs actual parameters
+23)deadlock vs spin lock
+24)kernel
+25)Process vs program
+26)if you search google.com how the homepage is fetched
+27)hard work vs smart work
+28)3 reasons why should we hire you
+29)SDLC life cycle
+30)Explain dynamic binding 
+31)static storage class
+32)swap 2 variables i) with temp ii) without temp iii) without arithmetic operator
+33)Strength and weakness
+34)Which data structure can be used to find duplicate elements in array efficiently
+35)If your team member is not completing his work properly what would you do
+36)Your plans for end semester project
+37)Which OS you ara comfortable with and why you chose it
+.....
+ ............
+.....
