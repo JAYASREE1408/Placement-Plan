@@ -174,7 +174,7 @@ Arrays have better cache locality that can make a pretty big difference in perfo
 ## 3. *What is Stack and where it can be used?*
 
 Stack is a linear data structure which the order LIFO(Last In First Out) or FILO(First In Last Out) for accessing elements. Basic operations of the stack are: Push, Pop, Peek
-## 7. *How to implement a queue using stack?*
+## 4. *How to implement a queue using stack?*
 
 A queue can be implemented using two stacks. Let queue to be implemented be q and stacks used to implement q be stack1 and stack2. q can be implemented in two ways: 
 
@@ -194,38 +194,36 @@ Implement Stack using Queues
 ........
 ........
 
- ## 2. *What is a primary key?*
+ ## 7. *What is a primary key?*
 
 A primary key is a combination of fields which uniquely specify a row. This is a special kind of unique key, and it has implicit NOT NULL constraint. It means, Primary key values cannot be NULL.
 
-## 3. *What is normalization?*
+## 8. *What is normalization?*
 
 Normalization is the process of minimizing redundancy and dependency by organizing fields and table of a database. The main aim of Normalization is to add, delete or modify field that can be made in a single table.
 [1/24, 14:08] Jeyan Anna: Database:
 
-## *1.What is SQL?*
+## *9.What is SQL?*
 
 SQL stands for Structured Query Language , and it is used to communicate with the Database. This is a standard language used to perform tasks such as retrieval, updation, insertion and deletion of data from a database.
 Standard SQL Commands are Select.
 
-## 4. *What is a query?*
+## 10. *What is a query?*
 
 A DB query is a code written in order to get the information back from the database. Query can be designed in such a way that it matched with our expectation of the result set. Simply, a question to the Database.
 
-## 5. *What is a trigger?*
+## 11. *What is a trigger?*
 
 A DB trigger is a code or programs that automatically execute with response to some event on a table or view in a database. Mainly, trigger helps to maintain the integrity of the database.
 
 Example: When a new student is added to the student database, new records should be created in the related tables like Exam, Score and Attendance tables.
 
-## 6. *What is the difference between DELETE and TRUNCATE commands?*
+## 12. *What is the difference between DELETE and TRUNCATE commands?*
 
 DELETE command is used to remove rows from the table, and WHERE clause can be used for conditional set of parameters. Commit and Rollback can be performed after delete statement.
 
 TRUNCATE removes all rows from the table. Truncate operation cannot be rolled back.
- ............
- .....
- .....
+ 
 # MYSQL Queries:
 
 ## 1. *How will you write an SQL Query to fetch the count of the employee working in project “Q1”?*
@@ -244,7 +242,7 @@ SELECT EmpId, Salary
 FROM Employee Salary
 
 WHERE Salary BETWEEN 16000 AND 50000;
-## 4. *Write an SQL Query to find the maximum, minimum and average marks of the students?*
+## 3. *Write an SQL Query to find the maximum, minimum and average marks of the students?*
 
 We can use the combined meaning of SQL to bring the max, min and average values:
 
@@ -255,7 +253,7 @@ Min (Marks),
 AVG (Marks)
 
 FROM Student Marks;
-## 3. *Write an SQL Query to fetch “LAST_NAME” from employee table in upper case?*
+## 4. *Write an SQL Query to fetch “LAST_NAME” from employee table in upper case?*
 
 The necessary query is:
 
@@ -273,9 +271,7 @@ SELECT get date ();
 Oracle-
 
 SELECT SYSDATE FROM DUAL;
- .........
- .....
-.....
+ 
 # General:
 
 ## 1. *Describe a situation where you had to solve a problem. What did you do? what was the result? What might you have done differently?*
@@ -285,7 +281,6 @@ SELECT SYSDATE FROM DUAL;
 ## 3. *Describe a personal weakness that you had to overcome to improve your performance at work? How did you do it?*
 
 ## 4. *Tell me about your workstyle!*
- ....
 
 # Operating Systems:
 
@@ -293,8 +288,7 @@ SELECT SYSDATE FROM DUAL;
 
 A thread is a single sequence stream within in a process. Because threads have some of the properties of processes, they are sometimes called lightweight processes. Threads are popular way to improve application through parallelism. For example, in a browser, multiple tabs can be different threads. MS word uses multiple threads, one thread to format the text, other thread to process inputs, etc. 
 A thread has its own program counter (PC), a register set, and a stack space. Threads are not independent of one other like processes as a result threads shares with other threads their code section, data section and OS resources like open files and signals.
- .....
- ..........
+
 ## 2. *What are the different scheduling algorithms?* 
 
 First-Come, First-Served (FCFS) Scheduling. 
@@ -303,27 +297,29 @@ Priority Scheduling.
 Shortest Remaining Time. 
 Round Robin(RR) Scheduling. 
 Multiple-Level Queues Scheduling.
+
 ## 3. *What is deadlock?* 
 
 Deadlock is a situation when two or more processes wait for each other to finish and none of them ever finish.  Consider an example when two trains are coming toward each other on same track and there is only one track, none of the trains can move once they are in front of each other.  Similar situation occurs in operating systems when there are two or more processes hold some resources
 
 and wait for resources held by other(s).
-## 6. *What is kernel?*
+
+## 4. *What is kernel?*
 
 A kernel is the core of every operating system. It connects applications to the actual processing of data. It also manages all communications between software and hardware components to ensure usability and reliability.
-## 4. *What are the necessary conditions for deadlock?*
+
+## 5. *What are the necessary conditions for deadlock?*
 
 Mutual Exclusion: There is a resource that cannot be shared. 
 Hold and Wait: A process is holding at least one resource and waiting for another resource which is with some other process. 
 No Preemption: The operating system is not allowed to take a resource back from a process until process gives it back. 
 Circular Wait:  A set of processes are waiting for each other in circular form.
-## 5. *What is Thrashing?* 
+
+## 6. *What is Thrashing?* 
 
 Thrashing is a situation when the performance of a computer degrades or collapses. Thrashing occurs when a system spends more time processing page faults than executing transactions. While processing page faults is necessary to in order to appreciate the benefits of virtual memory, thrashing has a negative affect on the system. As the page fault rate increases, more transactions need processing from the paging device. The queue at the paging device increases, resulting in increased service time for a page fault
- ....
- .....
- ...........
-## 2. *What is Stop-and-Wait Protocol?*
+ 
+## 7. *What is Stop-and-Wait Protocol?*
 
 In Stop and wait protocol, a sender after sending a frame waits for an acknowledgment of the frame and sends the next frame only when acknowledgment of the frame has received.
 
@@ -339,7 +335,8 @@ There are a total of 7 layers
 5. Session Layer
 6. Presentation Layer
 7. Application Layer
-## 4. *What happens when you type a URL in the web browser?*
+
+## 2. *What happens when you type a URL in the web browser?*
 
 A URL may contain a request to HTML, image file or any other type.
 
@@ -350,10 +347,12 @@ Browser sets up a TCP connection using three-way handshake.
 Browser sends a HTTP request.
 Server has a web server like Apache, IIS running that handles incoming HTTP request and sends an HTTP response.
 Browser receives the HTTP response and renders the content.
+
 ## 3. *What is Piggybacking?*
 
 Piggybacking is used in bi-directional data transmission in the network layer (OSI model). The idea is to improve the efficiency. Piggyback acknowledgment (of the received data) is hooked on the data frame (to be sent) instead of sending a separate frame.
-## 5. *What is ARP, how does it work?*
+
+## 4. *What is ARP, how does it work?*
 
 ARP stands for Address Resolution Protocol. ARP is used to find LAN address from the Network address. A node typically has destination IP to send a packet, the nodes need link layer address to send a frame over a local link. The ARP protocol helps here.
 
@@ -361,9 +360,6 @@ The node sends a broadcast message to all nodes saying what is the MAC address o
 Node with the provided IP address replies with the MAC address.
 Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here.
 
-......
-........
-.........
 # Important Questions :
 ## 1. Introduce yourself
 ## 2. Real time application of Stack 
