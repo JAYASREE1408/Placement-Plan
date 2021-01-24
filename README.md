@@ -293,9 +293,9 @@ SELECT SYSDATE FROM DUAL;
 
 A thread is a single sequence stream within in a process. Because threads have some of the properties of processes, they are sometimes called lightweight processes. Threads are popular way to improve application through parallelism. For example, in a browser, multiple tabs can be different threads. MS word uses multiple threads, one thread to format the text, other thread to process inputs, etc. 
 A thread has its own program counter (PC), a register set, and a stack space. Threads are not independent of one other like processes as a result threads shares with other threads their code section, data section and OS resources like open files and signals.
-[1/24, 14:08] Jeyan Anna: .....
-[1/24, 14:08] Jeyan Anna: ..........
-[1/24, 14:08] Jeyan Anna: 2. *What are the different scheduling algorithms?* 
+ .....
+ ..........
+## 2. *What are the different scheduling algorithms?* 
 
 First-Come, First-Served (FCFS) Scheduling. 
 Shortest-Job-Next (SJN) Scheduling. 
@@ -303,32 +303,33 @@ Priority Scheduling.
 Shortest Remaining Time. 
 Round Robin(RR) Scheduling. 
 Multiple-Level Queues Scheduling.
-[1/24, 14:08] Jeyan Anna: 3. *What is deadlock?* 
+## 3. *What is deadlock?* 
 
 Deadlock is a situation when two or more processes wait for each other to finish and none of them ever finish.  Consider an example when two trains are coming toward each other on same track and there is only one track, none of the trains can move once they are in front of each other.  Similar situation occurs in operating systems when there are two or more processes hold some resources
 
 and wait for resources held by other(s).
-[1/24, 14:08] Jeyan Anna: 6. *What is kernel?*
+## 6. *What is kernel?*
 
 A kernel is the core of every operating system. It connects applications to the actual processing of data. It also manages all communications between software and hardware components to ensure usability and reliability.
-[1/24, 14:08] Jeyan Anna: 4. *What are the necessary conditions for deadlock?*
+## 4. *What are the necessary conditions for deadlock?*
 
 Mutual Exclusion: There is a resource that cannot be shared. 
 Hold and Wait: A process is holding at least one resource and waiting for another resource which is with some other process. 
 No Preemption: The operating system is not allowed to take a resource back from a process until process gives it back. 
 Circular Wait:  A set of processes are waiting for each other in circular form.
-[1/24, 14:08] Jeyan Anna: 5. *What is Thrashing?* 
+## 5. *What is Thrashing?* 
 
 Thrashing is a situation when the performance of a computer degrades or collapses. Thrashing occurs when a system spends more time processing page faults than executing transactions. While processing page faults is necessary to in order to appreciate the benefits of virtual memory, thrashing has a negative affect on the system. As the page fault rate increases, more transactions need processing from the paging device. The queue at the paging device increases, resulting in increased service time for a page fault
-[1/24, 14:08] Jeyan Anna: ....
-[1/24, 14:08] Jeyan Anna: .....
-[1/24, 14:08] Jeyan Anna: ...........
-[1/24, 14:08] Jeyan Anna: 2. *What is Stop-and-Wait Protocol?*
+ ....
+ .....
+ ...........
+## 2. *What is Stop-and-Wait Protocol?*
 
 In Stop and wait protocol, a sender after sending a frame waits for an acknowledgment of the frame and sends the next frame only when acknowledgment of the frame has received.
-[1/24, 14:08] Jeyan Anna: Networking:
 
-1. *What are layers in OSI model?*
+# Networking:
+
+## 1. *What are layers in OSI model?*
 
 There are a total of 7 layers
 1. Physical Layer
@@ -338,7 +339,7 @@ There are a total of 7 layers
 5. Session Layer
 6. Presentation Layer
 7. Application Layer
-[1/24, 14:08] Jeyan Anna: 4. *What happens when you type a URL in the web browser?*
+## 4. *What happens when you type a URL in the web browser?*
 
 A URL may contain a request to HTML, image file or any other type.
 
@@ -349,10 +350,10 @@ Browser sets up a TCP connection using three-way handshake.
 Browser sends a HTTP request.
 Server has a web server like Apache, IIS running that handles incoming HTTP request and sends an HTTP response.
 Browser receives the HTTP response and renders the content.
-[1/24, 14:08] Jeyan Anna: 3. *What is Piggybacking?*
+## 3. *What is Piggybacking?*
 
 Piggybacking is used in bi-directional data transmission in the network layer (OSI model). The idea is to improve the efficiency. Piggyback acknowledgment (of the received data) is hooked on the data frame (to be sent) instead of sending a separate frame.
-[1/24, 14:09] Jeyan Anna: 5. *What is ARP, how does it work?*
+## 5. *What is ARP, how does it work?*
 
 ARP stands for Address Resolution Protocol. ARP is used to find LAN address from the Network address. A node typically has destination IP to send a packet, the nodes need link layer address to send a frame over a local link. The ARP protocol helps here.
 
@@ -360,47 +361,47 @@ The node sends a broadcast message to all nodes saying what is the MAC address o
 Node with the provided IP address replies with the MAC address.
 Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here.
 
-[1/24, 14:09] Jeyan Anna:
-1) Introduce yourself
-2) Real time application of Stack 
-3) Calculate 9 mins using a 4min and 7min sand clock
-4) Difference between http and https and what type of encryption is used in https
-5) Which language you prefer to code why
-6) What is operator overloading
-7) Different types of joins in DB
-8) Differentiate call by value and reference
-
-9)Unique key
-
-vs Primary key
-10)What is your laptop configuration
-11)Which sorting algorithm is best why
-12)Query to fetch second largest salary from DB
-13)Different networking layers
-14)Difference between tree and graph
-15)Stack using queue, Queue using stack
-16)How did you use your quarantine productively
-17)Difference between delete truncate and drop
-18)How to access private data members of a class outside it
-19)How you overcome from failures
-20)Where do you look yourself after 5 years
-21)ACID property
-22)Formal parameters vs actual parameters
-23)deadlock vs spin lock
-24)kernel
-25)Process vs program
-26)if you search google.com how the homepage is fetched
-27)hard work vs smart work
-28)3 reasons why should we hire you
-29)SDLC life cycle
-30)Explain dynamic binding 
-31)static storage class
-32)swap 2 variables i) with temp ii) without temp iii) without arithmetic operator
-33)Strength and weakness
-34)Which data structure can be used to find duplicate elements in array efficiently
-35)If your team member is not completing his work properly what would you do
-36)Your plans for end semester project
-37)Which OS you ara comfortable with and why you chose it
+......
+........
+.........
+# Important Questions :
+## 1. Introduce yourself
+## 2. Real time application of Stack 
+## 3. Calculate 9 mins using a 4min and 7min sand clock
+## 4. Difference between http and https and what type of encryption is used in https
+## 5. Which language you prefer to code why
+## 6. What is operator overloading
+## 7. Different types of joins in DB
+## 8. Differentiate call by value and reference
+## 9. Unique key vs Primary key
+## 10. What is your laptop configuration
+## 11. Which sorting algorithm is best why
+## 12. Query to fetch second largest salary from DB
+## 13. Different networking layers
+## 14. Difference between tree and graph
+## 15. Stack using queue, Queue using stack
+## 16. How did you use your quarantine productively
+## 17. Difference between delete truncate and drop
+## 18. How to access private data members of a class outside it
+## 19. How you overcome from failures
+## 20. Where do you look yourself after 5 years
+## 21. ACID property
+## 22. Formal parameters vs actual parameters
+## 23. deadlock vs spin lock
+## 24. kernel
+## 25. Process vs program
+## 26. if you search google.com how the homepage is fetched
+## 27. hard work vs smart work
+## 28. 3 reasons why should we hire you
+## 29. SDLC life cycle
+## 30. Explain dynamic binding 
+## 31. static storage class
+## 32. swap 2 variables i) with temp ii) without temp iii) without arithmetic operator
+## 33. Strength and weakness
+## 34. Which data structure can be used to find duplicate elements in array efficiently
+## 35. If your team member is not completing his work properly what would you do
+## 36. Your plans for end semester project
+## 37. Which OS you ara comfortable with and why you chose it
 .....
  ............
 .....
