@@ -269,7 +269,8 @@ FROM Student Marks;
 The necessary query is:
 
 Select upper (LAST_NAME) from Employee;
-[1/24, 14:08] Jeyan Anna: 5. *Mention the SQL Query to find the current date and time?*
+
+### 5. *Mention the SQL Query to find the current date and time?*
 
 MySQL-
 
