@@ -31,6 +31,17 @@
 - OS ( Concepts definition)
 - Networks( Concepts )
 
+# Tech interview DBMS, OS, NETWORKS
+https://afteracademy.com/tech-interview
+
+# Sql
+https://www.techbeamers.com/sql-query-questions-answers-for-practice/
+
+# C++
+https://youtube.com/playlist?list=PLrKBFf87Cy9BVBAZ1Y-6Olzz0KTU4Qw6L
+
+# Exploring c
+https://www.pdfdrive.com/exploring-c-e185761675.html
 
 # For OS, DBMS, DS and CN concepts ...
 
