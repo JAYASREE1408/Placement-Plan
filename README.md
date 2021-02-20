@@ -384,9 +384,41 @@ Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here
 ## 9. Unique key vs Primary key
 ## 10. What is your laptop configuration
 ## 11. Which sorting algorithm is best why
+
+Quick sort... O(n log n) worst case O(n2) 
 ## 12. Query to fetch second largest salary from DB
+
+SELECT name, MAX(salary) AS salary 
+FROM employee 
+WHERE salary IN
+(SELECT salary FROM employee MINUS SELECT MAX(salary) 
+FROM employee); 
+
+SELECT
+    salary,
+    employeeid
+FROM
+    employees
+ORDER BY
+    salary DESC
+LIMIT 2
+
+
 ## 13. Different networking layers
 ## 14. Difference between tree and graph
+
+A graph is collection of two sets V and E where V is a finite non-empty set of vertices and E is a finite non-empty set of edges.
+
+Vertices are nothing but the nodes in the graph.
+Two adjacent vertices are joined by edges.
+Any graph is denoted as G = {V, E}.
+
+A tree is a finite set of one or more nodes such that –
+
+There is a specially designated node called root.
+The remaining nodes are partitioned into n>=0 disjoint sets T1, T2, T3, …, Tn
+where T1, T2, T3, …, Tn is called the subtrees of the root.
+
 ## 15. Stack using queue, Queue using stack
 ## 16. How did you use your quarantine productively
 ## 17. Difference between delete truncate and drop
