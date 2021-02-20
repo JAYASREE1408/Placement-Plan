@@ -166,7 +166,7 @@ Deletion ? Delete an existing data item from the given collection of data items.
 Traversal ? Access each data item exactly once so that it can be processed.
 Searching ? Find out the location of the data item if it exists in the given collection of data items.
 Sorting ? Arranging the data items in some order i.e. in ascending or descending order in case of numerical data and in dictionary order in case of alphanumeric data.
-[1/24, 14:08] Jeyan Anna: 4. *Applications of Stack:*
+## 4. *Applications of Stack:*
 
 Infix to Postfix Conversion using Stack
 Evaluation of Postfix Expression
