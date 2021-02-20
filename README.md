@@ -423,18 +423,34 @@ where T1, T2, T3, …, Tn is called the subtrees of the root.
 ## 16. How did you use your quarantine productively
 ## 17. Difference between delete truncate and drop
 ## 18. How to access private data members of a class outside it
+
+No outside Access is allowed. To access the private member, you can declare a function/class as friend of that particular class, and then the member will be accessible inside that function or class object without access specifier check.
+
 ## 19. How you overcome from failures
 ## 20. Where do you look yourself after 5 years
 ## 21. ACID property
+Atomicity
+Consistency
+Durability
+Isolation
 ## 22. Formal parameters vs actual parameters
+When a function is called, the values (expressions) that are passed in the function call are called the arguments or actual parameters. ... The parameters are written in function definition are known as formal parameters. Actual Parameters can be constant values or variable names.
+
 ## 23. deadlock vs spin lock
+
+Deadlock is a problem, in concurrent programming. While Spinlock is a solution for threads, so that two threads can not access the same resource at a time.
+
 ## 24. kernel
 ## 25. Process vs program
 ## 26. if you search google.com how the homepage is fetched
 ## 27. hard work vs smart work
 ## 28. 3 reasons why should we hire you
 ## 29. SDLC life cycle
+Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.
+
 ## 30. Explain dynamic binding 
+Method Overriding is a perfect example of dynamic binding as in overriding both parent and child classes have same method and in this case the type of the object determines which method is to be executed. The type of object is determined at the run time so this is known as dynamic binding.
+
 ## 31. static storage class
 ## 32. swap 2 variables i) with temp ii) without temp iii) without arithmetic operator
 ## 33. Strength and weakness
