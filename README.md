@@ -99,17 +99,24 @@ https://www.pdfdrive.com/exploring-c-e185761675.html
 # Database:
 
   1. Types of DBMS
-Centralised database.
-Distributed database.
-Personal database.
-End-user database.
-Commercial database.
-NoSQL database.
-Operational database.
-Relational database.
-Cloud database.
-Object-oriented database.
-Graph database.
+- Centralised database.
+- Distributed database.
+- Personal database.
+- End-user database.
+- Commercial database.
+- NoSQL database.
+- Operational database.
+- Relational database.
+- Cloud database.
+- Object-oriented database.
+- Graph database.
+
+- Hierarchical databases
+- Network databases
+- Object-oriented databases
+- Relational databases
+- NoSQL databases
+
   2. Keys
   3. SQL commands(DDL,DCL,TCL,DML)  
   4. Normalisation
