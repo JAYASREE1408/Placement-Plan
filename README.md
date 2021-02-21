@@ -520,6 +520,20 @@ Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here
 ## 1. Introduce yourself
 ## 2. Real time application of Stack 
 ## 3. Calculate 9 mins using a 4min and 7min sand clock
+- At 0 minutes: Start both hourglasses at the same time.
+
+
+- At 4 minutes: 4 minutes hourglass runs out and flip it. 7 minutes hourglass is left with 3 minutes.
+
+
+- At 7 minutes: 4 minutes hourglass is left with 1 minute. 7 minutes hourglass runs out and flip it.
+
+
+- At 8 minutes: 4 minutes hourglass runs out and 7 is filled with 6 minutes and 1 minute on the other side. Flip it as the sand is left with 1 minute.
+
+
+- At 9 minutes: 7 minutes hourglass becomes empty from above side.
+
 ## 4. Difference between http and https and what type of encryption is used in https
 ## 5. Which language you prefer to code why
 ## 6. What is operator overloading
