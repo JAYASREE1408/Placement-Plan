@@ -123,94 +123,117 @@ Data are characteristics or information, usually numeric, that are collected thr
 - NoSQL databases
 
   2. Keys
-  3. SQL commands(DDL,DCL,TCL,DML)  
-SQL | DDL, DQL, DML, DCL and TCL Commands
+# Introduction about Key
+
+A Key is a data item that exclusively identifies a record. In other words, key is a set of column(s) that is used to uniquely identify the record in a table. It is used to fetch or retrieve records / data-rows from data table according to the condition/requirement. Key provide several types of constraints like column can’t store duplicate values or null values. Keys are also used to generate relationship among different database tables or views.
+
+# Types of Keys
+
+Database supports the following types of keys.
+
+- Super Key
+- Minimal Super Key
+- Candidate Key
+- Primary Key
+- Unique Key
+- Alternate Key
+- Composite Key
+- Foreign Key
+- Natural Key
+- Surrogate Key
+  # 3. SQL commands(DDL,DCL,TCL,DML)  
+# SQL | DDL, DQL, DML, DCL and TCL Commands
 Structured Query Language(SQL) as we all know is the database language by the use of which we can perform certain operations on the existing database and also we can use this language to create a database. SQL uses certain commands like Create, Drop, Insert etc. to carry out the required tasks.
 
 These SQL commands are mainly categorized into four categories as:
 
-DDL – Data Definition Language
-DQl – Data Query Language
-DML – Data Manipulation Language
-DCL – Data Control Language
+- DDL – Data Definition Language
+- DQl – Data Query Language
+- DML – Data Manipulation Language
+- DCL – Data Control Language
 Though many resources claim there to be another category of SQL clauses TCL – Transaction Control Language. So we will see in detail about TCL as well.
 
 
 
 
-DDL(Data Definition Language) : DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
-Examples of DDL commands:
+# DDL(Data Definition Language) : 
+DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
+# Examples of DDL commands:
 
-CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
-DROP – is used to delete objects from the database.
-ALTER-is used to alter the structure of the database.
-TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
-COMMENT –is used to add comments to the data dictionary.
-RENAME –is used to rename an object existing in the database.
+- CREATE – is used to create the database or its objects (like table, index, function, views, store procedure and triggers).
+- DROP – is used to delete objects from the database.
+- ALTER-is used to alter the structure of the database.
+- TRUNCATE–is used to remove all records from a table, including all spaces allocated for the records are removed.
+- COMMENT –is used to add comments to the data dictionary.
+- RENAME –is used to rename an object existing in the database.
 # DQL (Data Query Language) :
 
-DML statements are used for performing queries on the data within schema objects. The purpose of DQL Command is to get some schema relation based on the query passed to it.
+# DML statements are used for performing queries on the data within schema objects. The purpose of DQL Command is to get some schema relation based on the query passed to it.
 
 
-Example of DQL:
+# Example of DQL:
 
 - SELECT – is used to retrieve data from the a database.
-DML(Data Manipulation Language) : The SQL commands that deals with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements.
-Examples of DML:
+# DML(Data Manipulation Language) : 
+The SQL commands that deals with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements.
+# Examples of DML:
 
 - INSERT – is used to insert data into a table.
 - UPDATE – is used to update existing data within a table.
 - DELETE – is used to delete records from a database table.
-DCL(Data Control Language) : DCL includes commands such as GRANT and REVOKE which mainly deals with the rights, permissions and other controls of the database system.
-Examples of DCL commands:
+# DCL(Data Control Language) : 
+DCL includes commands such as GRANT and REVOKE which mainly deals with the rights, permissions and other controls of the database system.
+# Examples of DCL commands:
 
 - GRANT-gives user’s access privileges to database.
 - REVOKE-withdraw user’s access privileges given by using the GRANT command.
-TCL(transaction Control Language) : TCL commands deals with the transaction within the database.
-Examples of TCL commands:
+# TCL(transaction Control Language) :
+ TCL commands deals with the transaction within the database.
+# Examples of TCL commands:
 
 - COMMIT– commits a Transaction.
 - ROLLBACK– rollbacks a transaction in case of any error occurs.
 - SAVEPOINT–sets a savepoint within a transaction.
-SET TRANSACTION–specify characteristics for the transaction.
-  4. Normalisation
+- SET TRANSACTION–specify characteristics for the transaction.
+  
+# 4. Normalisation
 
-First Normal Form (1NF)
+# First Normal Form (1NF)
 For a table to be in the First Normal Form, it should follow the following 4 rules:
 
-It should only have single(atomic) valued attributes/columns.
-Values stored in a column should be of the same domain
-All the columns in a table should have unique names.
-And the order in which data is stored, does not matter.
-In the next tutorial, we will discuss about the First Normal Form in details.
+- It should only have single(atomic) valued attributes/columns.
+- Values stored in a column should be of the same domain
+- All the columns in a table should have unique names.
+- And the order in which data is stored, does not matter.
+- In the next tutorial, we will discuss about the First Normal Form in details.
 
-Second Normal Form (2NF)
-For a table to be in the Second Normal Form,
+#Second Normal Form (2NF)
+- For a table to be in the Second Normal Form,
 
-It should be in the First Normal form.
-And, it should not have Partial Dependency.
-To understand what is Partial Dependency and how to normalize a table to 2nd normal for, jump to the Second Normal Form tutorial.
+- It should be in the First Normal form.
+- And, it should not have Partial Dependency.
+- To understand what is Partial Dependency and how to normalize a table to 2nd normal for, jump to the Second Normal Form tutorial.
 
-Third Normal Form (3NF)
-A table is said to be in the Third Normal Form when,
+# Third Normal Form (3NF)
+- A table is said to be in the Third Normal Form when,
 
-It is in the Second Normal form.
-And, it doesn't have Transitive Dependency.
-Here is the Third Normal Form tutorial. But we suggest you to first study about the second normal form and then head over to the third normal form.
+- It is in the Second Normal form.
+- And, it doesn't have Transitive Dependency.
+- Here is the Third Normal Form tutorial. But we suggest you to first study about the second normal form and then head over to the third normal form.
 
-Boyce and Codd Normal Form (BCNF)
-Boyce and Codd Normal Form is a higher version of the Third Normal form. This form deals with certain type of anomaly that is not handled by 3NF. A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:
+# Boyce and Codd Normal Form (BCNF)
+- Boyce and Codd Normal Form is a higher version of the Third Normal form. This form deals with certain type of anomaly that is not handled by 3NF. A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:
 
-R must be in 3rd Normal Form
+- R must be in 3rd Normal Form
 and, for each functional dependency ( X → Y ), X should be a super Key.
-To learn about BCNF in detail with a very easy to understand example, head to Boye-Codd Normal Form tutorial.
+- To learn about BCNF in detail with a very easy to understand example, head to Boye-Codd Normal Form tutorial.
 
-Fourth Normal Form (4NF)
-A table is said to be in the Fourth Normal Form when,
+# Fourth Normal Form (4NF)
+- A table is said to be in the Fourth Normal Form when,
 
-It is in the Boyce-Codd Normal Form.
-And, it doesn't have Multi-Valued Dependency.
-Here is the Fourth Normal Form tutorial. But we suggest you to understand other normal forms before you head over to the fourth normal form.
+- It is in the Boyce-Codd Normal Form.
+- And, it doesn't have Multi-Valued Dependency.
+- Here is the Fourth Normal Form tutorial. But we suggest you to understand other normal forms before you head over to the fourth normal form.
   5. ACID
   6. Transaction
   7. ER Diagram
