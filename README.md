@@ -205,9 +205,11 @@ Here is the Fourth Normal Form tutorial. But we suggest you to understand other 
   3. Linkedlist
   4. Trees
   5. Tries
+In computer science, a trie, also called digital tree or prefix tree, is a type of search tree, a tree data structure used for locating specific keys from within a set. These keys are most often strings, with links between nodes defined not by the entire key, but by individual characters. 
   6. Graph
   7. Hashing
-    
+Hashing is an important Data Structure which is designed to use a special function called the Hash function which is used to map a given value with a particular key for faster access of elements. The efficiency of mapping depends of the efficiency of the hash function used.
+
 ### In trees insertion , deletion and traversel must be practiced. In graph concepts are very important. To ensure that practice with maximum possible examples. We must know all the concepts about types of trees and code is optional.
 1. https://freecoursesite.com/
 2. https://desirecourse.net/
