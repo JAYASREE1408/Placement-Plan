@@ -167,12 +167,16 @@ Traversal ? Access each data item exactly once so that it can be processed.
 Searching ? Find out the location of the data item if it exists in the given collection of data items.
 Sorting ? Arranging the data items in some order i.e. in ascending or descending order in case of numerical data and in dictionary order in case of alphanumeric data.
 ## 4. *Applications of Stack:*
-
-Infix to Postfix Conversion using Stack
-Evaluation of Postfix Expression
-Reverse a String using Stack
-Implement two stacks in an array
-Check for balanced parentheses in an expression
+- Balancing symbols
+- Infix to Postfix Conversion using Stack
+- Evaluation of Postfix Expression
+- Implementing function call (including recursion) 
+- Reverse a String using Stack
+- Page visited history in a web browser[Back Buttons]
+- Undo sequence in text editor
+- Matching tags in HTML and XML
+- Implement two stacks in an array
+- Check for balanced parentheses in an expression
 
 ## 2. *How is an Array different from Linked List?*
 
