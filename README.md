@@ -97,7 +97,12 @@ https://www.pdfdrive.com/exploring-c-e185761675.html
  12. DNS, WWW , SMTP, MIME, HTTP, FTP, TELNET.
 
 # Database:
-
+DBMS:
+A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database.
+Database:
+A database is an organized collection of data, generally stored and accessed electronically from a computer system. 
+Data:
+Data are characteristics or information, usually numeric, that are collected through observation. In a more technical sense, data are a set of values of qualitative or quantitative variables about one or more persons or objects, while a datum (singular of data) is a single value of a single variable.
   1. Types of DBMS
 - Centralised database.
 - Distributed database.
