@@ -535,14 +535,24 @@ Like DHCP, ARP is a discovery protocol, but unlike DHCP there is not server here
 - At 9 minutes: 7 minutes hourglass becomes empty from above side.
 
 ## 4. Difference between http and https and what type of encryption is used in https
+- HTTP is unsecured while HTTPS is secured. 
+- HTTP sends data over port 80 while HTTPS uses port 443. 
+- HTTP operates at application layer, while HTTPS operates at transport layer. ...
+- No encryption in HTTP, with HTTPS the data is encrypted before sending.
 ## 5. Which language you prefer to code why
 ## 6. What is operator overloading
+- operator overloading, sometimes termed operator ad hoc polymorphism, is a specific case of polymorphism, where different operators have different implementations depending on their arguments. Operator overloading is generally defined by a programming language, a programmer, or both.
+- The main difference between overloading and overriding is that in overloading we can use same function name with different parameters for multiple times for different tasks with on a class. and overriding means we can use same name function name with same parameters of the base class in the derived class
 ## 7. Different types of joins in DB
+- (INNER) JOIN: Returns records that have matching values in both tables
+- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
 ## 8. Differentiate call by value and reference
+In Call by value, a copy of the variable is passed whereas in Call by reference, a variable itself is passed. In Call by value, actual and formal arguments will be created in different memory locations whereas in Call by reference, actual and formal arguments will be created in the same memory location
 ## 9. Unique key vs Primary key
 ## 10. What is your laptop configuration
 ## 11. Which sorting algorithm is best why
-
 Quick sort... O(n log n) worst case O(n2) 
 ## 12. Query to fetch second largest salary from DB
 
@@ -564,8 +574,8 @@ LIMIT 2
 
 ## 13. Different networking layers
 ## 14. Difference between tree and graph
-
-A graph is collection of two sets V and E where V is a finite non-empty set of vertices and E is a finite non-empty set of edges.
+- Graph is a non-linear data structure. Tree is a non-linear data structure. It is a collection of vertices/nodes and edges. ... But in case of binary trees every node can have at the most two child nodes.
+- A graph is collection of two sets V and E where V is a finite non-empty set of vertices and E is a finite non-empty set of edges.
 
 Vertices are nothing but the nodes in the graph.
 Two adjacent vertices are joined by edges.
@@ -587,16 +597,18 @@ No outside Access is allowed. To access the private member, you can declare a fu
 ## 19. How you overcome from failures
 ## 20. Where do you look yourself after 5 years
 ## 21. ACID property
-Atomicity
-Consistency
-Durability
-Isolation
+- Atomicity
+- Consistency
+- Durability
+- Isolation
 ## 22. Formal parameters vs actual parameters
-When a function is called, the values (expressions) that are passed in the function call are called the arguments or actual parameters. ... The parameters are written in function definition are known as formal parameters. Actual Parameters can be constant values or variable names.
+- When a function is called, the values (expressions) that are passed in the function call are called the arguments or actual parameters. ...
+- The parameters are written in function definition are known as formal parameters. Actual Parameters can be constant values or variable names.
 
 ## 23. deadlock vs spin lock
 
-Deadlock is a problem, in concurrent programming. While Spinlock is a solution for threads, so that two threads can not access the same resource at a time.
+- Deadlock is a problem, in concurrent programming.
+- While Spinlock is a solution for threads, so that two threads can not access the same resource at a time.
 
 ## 24. kernel
 ## 25. Process vs program
