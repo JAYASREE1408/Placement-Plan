@@ -478,6 +478,14 @@ Thrashing is a situation when the performance of a computer degrades or collapse
 ## 7. *What is Stop-and-Wait Protocol?*
 
 In Stop and wait protocol, a sender after sending a frame waits for an acknowledgment of the frame and sends the next frame only when acknowledgment of the frame has received.
+ 
+## 8. *Disk Scheduling*
+- FCFS scheduling algorithm
+- SSTF (shortest seek time first) algorithm
+- SCAN scheduling
+- C-SCAN scheduling
+- LOOK Scheduling
+- C-LOOK scheduling
 
 # Networking:
 
