@@ -120,6 +120,43 @@ https://www.pdfdrive.com/exploring-c-e185761675.html
   2. Keys
   3. SQL commands(DDL,DCL,TCL,DML)  
   4. Normalisation
+
+First Normal Form (1NF)
+For a table to be in the First Normal Form, it should follow the following 4 rules:
+
+It should only have single(atomic) valued attributes/columns.
+Values stored in a column should be of the same domain
+All the columns in a table should have unique names.
+And the order in which data is stored, does not matter.
+In the next tutorial, we will discuss about the First Normal Form in details.
+
+Second Normal Form (2NF)
+For a table to be in the Second Normal Form,
+
+It should be in the First Normal form.
+And, it should not have Partial Dependency.
+To understand what is Partial Dependency and how to normalize a table to 2nd normal for, jump to the Second Normal Form tutorial.
+
+Third Normal Form (3NF)
+A table is said to be in the Third Normal Form when,
+
+It is in the Second Normal form.
+And, it doesn't have Transitive Dependency.
+Here is the Third Normal Form tutorial. But we suggest you to first study about the second normal form and then head over to the third normal form.
+
+Boyce and Codd Normal Form (BCNF)
+Boyce and Codd Normal Form is a higher version of the Third Normal form. This form deals with certain type of anomaly that is not handled by 3NF. A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:
+
+R must be in 3rd Normal Form
+and, for each functional dependency ( X → Y ), X should be a super Key.
+To learn about BCNF in detail with a very easy to understand example, head to Boye-Codd Normal Form tutorial.
+
+Fourth Normal Form (4NF)
+A table is said to be in the Fourth Normal Form when,
+
+It is in the Boyce-Codd Normal Form.
+And, it doesn't have Multi-Valued Dependency.
+Here is the Fourth Normal Form tutorial. But we suggest you to understand other normal forms before you head over to the fourth normal form.
   5. ACID
   6. Transaction
   7. ER Diagram
