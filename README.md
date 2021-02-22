@@ -203,7 +203,7 @@ DCL includes commands such as GRANT and REVOKE which mainly deals with the right
 - SET TRANSACTION–specify characteristics for the transaction.
   
 # 4. Normalisation
-
+      Normalization is the process of organizing the data in the database. Normalization is used to minimize the redundancy from a relation or set of relations. ... The normal form is used to reduce redundancy and dependency from the database table.
 # First Normal Form (1NF)
 For a table to be in the First Normal Form, it should follow the following 4 rules:
 
