@@ -656,6 +656,8 @@ Method Overriding is a perfect example of dynamic binding as in overriding both 
 - Keys : https://www.guru99.com/dbms-keys.html
 - Normalization : https://beginnersbook.com/2015/05/normalization-in-dbms/
 - Joins : https://www.w3schools.com/sql/sql_join.asp
+https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
+
 - Transaction : https://www.guru99.com/dbms-transaction-management.html    
 - Triggers : https://www.geeksforgeeks.org/sql-trigger-student-database/
 - Views: https://www.geeksforgeeks.org/sql-views/
