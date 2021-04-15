@@ -667,10 +667,14 @@ https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
  
  
    # OS:
+   
 - Types of OS : https://www.geeksforgeeks.org/types-of-operating-systems/
+- [11:39 AM, 4/15/2021] JäÝåŚřÉê 👸🏼: https://youtu.be/RozoeWzT7IM
+- [11:39 AM, 4/15/2021] JäÝåŚřÉê 👸🏼: https://youtu.be/PY6zEUELn8s
 - Cache : https://www.geeksforgeeks.org/cache-memory-in-computer-organization/amp/
 - DMA : https://binaryterms.com/direct-memory-access-dma.html
 - Process : https://www.studytonight.com/operating-system/operating-system-processes
+- Drive Link: https://drive.google.com/drive/folders/1keLPPTk3J_8EBMkUL4KhC52NbIXiwUr_?usp=sharing
 - Multi - threading : https://www.studytonight.com/operating-system/multithreading
  
  
