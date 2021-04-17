@@ -668,6 +668,7 @@ https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/
  
    # OS:
    
+   # playlist:https://youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O
 - Types of OS : https://www.geeksforgeeks.org/types-of-operating-systems/
 - [11:39 AM, 4/15/2021] JäÝåŚřÉê 👸🏼: https://youtu.be/RozoeWzT7IM
 - [11:39 AM, 4/15/2021] JäÝåŚřÉê 👸🏼: https://youtu.be/PY6zEUELn8s
